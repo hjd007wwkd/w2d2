@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include partials/_header %>
+</head>
+<body>
+  <% for(var url in urls){ %>
+    <li><a href="/urls/<%=url%>"><%= url %></a></li>
+  <% } %>
+</body>
+</html>
